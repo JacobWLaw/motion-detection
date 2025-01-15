@@ -46,6 +46,8 @@ Look for the threshold sum, and if that sum is above a certain amount, we keep t
 Provided is a sample .env file that is required for setting up the email alerts. By default this is set to "OFF" and works only by showing what is happening in a OpenCV image rendering window.
 If you want to integrate this into anything else you're using feel free, and you can ignore the .env file by leaving it off. 
 
+Note: This program was designed to work on single-camera systems and indexing only accounts for the first camera discovered, hence the constraint. If you want you can go into the code itself and mess with indexing to find the correct camera if you have many.
+
 ## Future Plans
 - SMS!
 - Naming of the camera system (this will be pretty soon it's just not something I thought of initially).
