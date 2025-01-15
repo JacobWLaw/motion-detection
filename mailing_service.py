@@ -9,7 +9,7 @@ class MailingService():
         load_dotenv()
         self.email_address = os.getenv("EMAIL_ADDRESS")
         self.email_password = os.getenv("EMAIL_PASSWORD")
-
+    #Eventually this will attach an RGB image to the embedded in the message to capture what caused the movement, and maybe some bounding box stuff.
     def send_alert(self):
         msg = MIMEMultipart()
         msg['From'] = self.email_address
