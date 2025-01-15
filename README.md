@@ -26,7 +26,7 @@ Then we take another 3x3 matrix and it will be representative of frame2:
 [90, 90, 90]
 ```
 
-Now we look at each coordinate and compare them to look at ther difference values:
+Now we look at each coordinate and compare them to look at their difference values:
 ```
 [5,  5,  5]
 [5 , 5,  5]
